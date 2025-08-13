@@ -42,4 +42,4 @@ jobs:
       - name: get file
         run: ls
       - name: get file content
-        run: cat hello
+        run: cat hello.txt
