@@ -38,3 +38,5 @@ jobs:
       # The '-auto-approve' flag skips the interactive confirmation.
       - name: Terraform Apply
         run: terraform apply -auto-approve
+      - name: get file
+        run: ls
