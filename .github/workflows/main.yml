@@ -41,3 +41,5 @@ jobs:
         run: terraform apply -auto-approve
       - name: get file
         run: ls
+      - name: get file content
+        run: cat hello
